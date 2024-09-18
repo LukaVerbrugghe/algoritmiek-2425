@@ -26,16 +26,21 @@ plt.plot(x, y_1)
 plt.plot(x, y_2)
 
 # zoek snijpunt
-links = -1.0  # g(links) > f(links)
-rechts = 0.0  # g(rechts) < f(rechts)
+links = -4.0  # g(links) > f(links)
+rechts = -2.0  # g(rechts) < f(rechts)
+
+#var aanmaken voor aantal keer iteratie bij te houden
+Iteraties = 0
+
+midden = 0
 
 # Loop maken
 while rechts - links > 1E-13:
+    #aantal keer iteratie ++
+    Iteraties += 1
+
     # midden zoeken => gemiddelde zoeken van de 2 waarden
     midden = (links + rechts) / 2
-
-    print("Midden")
-    print(midden)
 
     # VUL AAN: welke lus hier? => door leerlingen
     # midden = # VUL AAN: hoe bepaal je de waarde van midden?
@@ -50,10 +55,13 @@ while rechts - links > 1E-13:
         # VUL AAN: wat verander je hier?
         rechts = midden
 
-    print("Links")
-    print(links)
-    print("Rechts")
-    print(rechts)
+print("Midden")
+print(midden)
+
+print("")
+
+print("Aantal iteraties")
+print(Iteraties)
 
 plt.scatter(links, f(links), color='r')
 plt.show()
