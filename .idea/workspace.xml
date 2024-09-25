@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="da2e8b91-c6ff-4f42-bdc1-323244b7791f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Newton-Raphson methode/Probleemstelling 1/Probleemstelling1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oefening2/bisectiemethode_oefening2.py" beforeDir="false" afterPath="$PROJECT_DIR$/oefening2/bisectiemethode_oefening2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oefening1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bisectiemethodes/oefening1/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oefening2/bisectiemethode_oefening2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bisectiemethodes/oefening2/bisectiemethode_oefening2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,16 +26,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "DaanHautekeete"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DaanHautekeete&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/DaanHautekeete/Algoritmiek.git",
-    "accountId": "618c4e8c-fb59-4843-9faa-133fbc0624b3"
+    "accountId": "a406a62e-586a-4dbb-aeb3-bd43800dbce0"
   }
 }]]></component>
   <component name="ProjectColorInfo">{
@@ -52,11 +54,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "settings.editor.selected.configurable": "advanced.settings"
+    "settings.editor.selected.configurable": "editor.preferences.tabs"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\oefen\Algo\Github\Bisectiemethodes" />
       <recent name="C:\Users\Daan.Hautekeete\PycharmProjects\Bisectiemethodes\oefening1" />
       <recent name="C:\Users\Daan.Hautekeete\PycharmProjects\Bisectiemethodes" />
     </key>
@@ -64,7 +67,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
+        <option value="bundled-python-sdk-98f27166c754-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.21829.153" />
       </set>
     </attachedChunks>
   </component>
