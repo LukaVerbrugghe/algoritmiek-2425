@@ -20,8 +20,8 @@ def newton_raphson(a, b, c, d, x0, tol, i):
         x_n1 = x_n - f / df
 
         print(x_n1)
-        if abs(x_n1 - x_n) <= tol:
-            break
+    print()
+    print("Finale waarde:")
     print(x_n)
 
-newton_raphson(0, 1, 0, 2, 1.5, 1E-2, 0)
+newton_raphson(0, 1, 0, -2, 1.5, 1E-13, 0)
