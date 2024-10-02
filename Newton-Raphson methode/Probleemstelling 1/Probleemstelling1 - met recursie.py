@@ -21,4 +21,4 @@ def newton_raphson(a, b, c, d, x0, tol, i):
     # else (Vul aan, welke conditie hier?)
 
 
-newton_raphson(0, 1, 0, -2, 1, 1E-13, 0)
+newton_raphson(0, 1, 0, -2, 1.5, 1E-13, 0)
