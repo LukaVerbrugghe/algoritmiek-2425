@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da2e8b91-c6ff-4f42-bdc1-323244b7791f" name="Changes" comment="NewtonRapsonZonderRecursie.py loop godverdomme nog steeds oneindig" />
+    <list default="true" id="da2e8b91-c6ff-4f42-bdc1-323244b7791f" name="Changes" comment="tis gelukt" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727852985966</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="tis gelukt">
+      <option name="closed" value="true" />
+      <created>1727853393324</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1727853393324</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -123,6 +131,7 @@
     <MESSAGE value="Template from smartschool" />
     <MESSAGE value="x_n1 berekend" />
     <MESSAGE value="NewtonRapsonZonderRecursie.py loop godverdomme nog steeds oneindig" />
-    <option name="LAST_COMMIT_MESSAGE" value="NewtonRapsonZonderRecursie.py loop godverdomme nog steeds oneindig" />
+    <MESSAGE value="tis gelukt" />
+    <option name="LAST_COMMIT_MESSAGE" value="tis gelukt" />
   </component>
 </project>
