@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da2e8b91-c6ff-4f42-bdc1-323244b7791f" name="Changes" comment="Afwerken probleemstelling 1 (zonder recursie) - NR">
-      <change afterPath="$PROJECT_DIR$/Oplossingen/Bissectiemethode/Bissectiemethode_oplossing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oplossingen/Newton-Raphson methode/Newton-Raphson-zonderRecursie_Oplossing.py" afterDir="false" />
+    <list default="true" id="da2e8b91-c6ff-4f42-bdc1-323244b7791f" name="Changes" comment="Afwerken oefening 2">
+      <change afterPath="$PROJECT_DIR$/Gauss-Jordan/Gauss-Jordan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bisectiemethodes/oefening1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bisectiemethodes/oefening1/bisectiemethode_oefening1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +33,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/DaanHautekeete/Algoritmiek.git&quot;,
-    &quot;accountId&quot;: &quot;a406a62e-586a-4dbb-aeb3-bd43800dbce0&quot;
+    &quot;accountId&quot;: &quot;618c4e8c-fb59-4843-9faa-133fbc0624b3&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
