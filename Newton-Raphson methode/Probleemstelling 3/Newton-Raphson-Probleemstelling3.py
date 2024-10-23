@@ -6,7 +6,7 @@ def newton_raphson(a, b, c, d, x0, tol, i):
     iteraties = []
     residual = []
     x_n = x0
-    x_n1 = 0  # moet verschillende zijn van x0, anders geen iteraties
+    x_n1 = 4  # moet verschillende zijn van x0, anders geen iteraties
 
     while abs(x_n1 - x_n) > tol:
         x_n = x_n1
@@ -15,7 +15,7 @@ def newton_raphson(a, b, c, d, x0, tol, i):
         df = 3 * a * x_n ** 2 + 2 * b * x_n + c
 
         if df == 0:
-            df += 1
+            df = 1
 
         x_n1 = x_n - f / df
         iteraties.append(i)
@@ -31,6 +31,7 @@ def newton_raphson(a, b, c, d, x0, tol, i):
     print(i)
     print("nulwaarde")
     print(x_n1)
+    print()
     plt.scatter(x_n1, f, color='r', label='kleinste nulwaarde')
     plt.legend()
     plt.show()
@@ -45,6 +46,23 @@ def newton_raphson(a, b, c, d, x0, tol, i):
     plt.legend()
     plt.show()
 
+    return x_n1
 
-newton_raphson(0, 1, 0, -2, 2, 1E-13, 0)
+def horner(a, b, c, d, x0, tol, i):
+    #nulwaarde berekenen
+    x0 = newton_raphson(a, b, c, d, x0, tol, i)
+    b = a*x0 + b
+    c = x0 * b + c
+    d = x0 * c + d
+
+    #Nulwaarden weergeven
+    print("Waarde a: " + str(a))
+    print("Waarde b: " + str(b))
+    print("Waarde c: " + str(c))
+    print("Waarde d: " + str(d))
+
+    #Nodige waarden teruggeven
+    return a,b,c
+
+horner(1, 0, -8, -3, 3, 1E-13, 0)
 
