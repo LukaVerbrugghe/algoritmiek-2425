@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da2e8b91-c6ff-4f42-bdc1-323244b7791f" name="Changes" comment="Afwerken oefening 2">
-      <change beforePath="$PROJECT_DIR$/.idea/Bisectiemethodes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Bisectiemethodes.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="da2e8b91-c6ff-4f42-bdc1-323244b7791f" name="Changes" comment="Afwerken van regel van Horner (algo)">
       <change beforePath="$PROJECT_DIR$/Newton-Raphson methode/Probleemstelling 3/Newton-Raphson-Probleemstelling3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Newton-Raphson methode/Probleemstelling 3/Newton-Raphson-Probleemstelling3.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727853599924</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Afwerken van regel van Horner (algo)">
+      <option name="closed" value="true" />
+      <created>1729667762463</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729667762463</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +130,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Toevoegen van opdracht" />
     <MESSAGE value="Afwerken probleemstelling 1 (zonder recursie) - NR" />
-    <option name="LAST_COMMIT_MESSAGE" value="Afwerken probleemstelling 1 (zonder recursie) - NR" />
+    <MESSAGE value="Afwerken van regel van Horner (algo)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Afwerken van regel van Horner (algo)" />
   </component>
 </project>

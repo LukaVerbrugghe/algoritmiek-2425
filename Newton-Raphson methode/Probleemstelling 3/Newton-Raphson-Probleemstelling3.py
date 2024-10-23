@@ -1,3 +1,5 @@
+import math
+
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -64,5 +66,25 @@ def horner(a, b, c, d, x0, tol, i):
     #Nodige waarden teruggeven
     return a,b,c
 
-horner(1, 0, -8, -3, 3, 1E-13, 0)
+def discriminant(a, b, c):
+    #Discriminant berekenen
+    D = b**2 - 4*a*c
+    print("Discriminant: " + str(D))
+    print()
 
+    if D > 0:
+        x1 = -b + math.sqrt(D) / (2*a)
+        x2 = -b - math.sqrt(D) / (2*a)
+        print("X1: " + str(x1))
+        print("X2: " + str(x2))
+
+    elif D == 0:
+        x1 = -b / (2*a)
+        print("X1: " + str(x1))
+
+    elif D < 0:
+        print("Geen nulwaarden")
+
+
+horner(1, 0, -8, -3, 3, 1E-13, 0)
+discriminant(1,0,-8)
