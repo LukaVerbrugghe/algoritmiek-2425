@@ -6,7 +6,7 @@ def newton_raphson(a, b, c, d, x0, tol, i):
     iteraties = []
     residual = []
     x_n = x0
-    x_n1 = 0  # moet verschillende zijn van x0, anders geen iteraties
+    x_n1 = 4  # moet verschillende zijn van x0, anders geen iteraties, mag iets anders zijn ook
 
     while abs(x_n1 - x_n) > tol:
         x_n = x_n1
@@ -45,5 +45,11 @@ def newton_raphson(a, b, c, d, x0, tol, i):
 
     return x_n1
 
+def horner(a, b, c, d, x0, tol, i):
+    x0 = newton_raphson(a, b, c, d, x0, tol, i)
+    b = x0 * a + b
+    c = x0 * b + c
+    d = x0 * c + d
+    return a, b, c
 
-newton_raphson(0, 1, 0, -2, 2, 1E-13, 0)
+horner(1, 0, -8, -3, 3, 1E-13, 0)
