@@ -43,5 +43,7 @@ def newton_raphson(a, b, c, d, x0, tol, i):
     plt.legend()
     plt.show()
 
+    return x_n1
+
 
 newton_raphson(0, 1, 0, -2, 2, 1E-13, 0)
