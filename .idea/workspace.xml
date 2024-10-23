@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da2e8b91-c6ff-4f42-bdc1-323244b7791f" name="Changes" comment="Verder werken aan oefening (wiskunde)">
-      <change beforePath="$PROJECT_DIR$/.idea/Bisectiemethodes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Bisectiemethodes.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gauss-Jordan/Gauss-Jordan.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gauss-Jordan/Gauss-Jordan.py" afterDir="false" />
-    </list>
+    <list default="true" id="da2e8b91-c6ff-4f42-bdc1-323244b7791f" name="Changes" comment="WIP Gauss-Jordan (wiskunde)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,13 +111,22 @@
       <option name="project" value="LOCAL" />
       <updated>1729066147557</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="WIP Gauss-Jordan (wiskunde)">
+      <option name="closed" value="true" />
+      <created>1729671051431</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729671051431</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Toevoegen van opdracht" />
     <MESSAGE value="Afwerken probleemstelling 1 (zonder recursie) - NR" />
     <MESSAGE value="Verder werken aan oefening (wiskunde)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Verder werken aan oefening (wiskunde)" />
+    <MESSAGE value="WIP Gauss-Jordan (wiskunde)" />
+    <option name="LAST_COMMIT_MESSAGE" value="WIP Gauss-Jordan (wiskunde)" />
   </component>
 </project>
