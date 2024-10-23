@@ -16,37 +16,20 @@ def verwissel(stelsel, index_1, index_2):  # vul aan
     print(stelsel)
 
 def deel_door(rij, deler):  # vul aan
-    #Array aanmaken voor de te delen rij
-    teDelenRij = stelsel[rij]
-    print("Te delen rij:")
-    print(teDelenRij)
-    print()
+    for i in range(len(rij)):
+        rij[i] = rij[i] / deler
+    print(rij)
 
-    #Nieuwe array aanmaken voor de gedeelde rij
-    gedeeldeRij = []
+def trek_veelvoud_af(rij_1, rij_2, factor):
+    #Alle elementen in rij 1 overlopen
+    for i in range(len(rij_1)):
+        rij_1[i] = rij_1[i] - factor * rij_2[i]
 
-    #Alle elementen binnen de rij gaan delen door de deler
-    for element in teDelenRij:
-        element = element / deler
-
-        #Waarde toevoegen aan nieuwe array
-        gedeeldeRij.append(element)
-
-    #nieuwe rij in stelsel steken
-    print("Gedeelde rij:")
-    stelsel[rij] = gedeeldeRij
-    print(gedeeldeRij)
-    print()
-
-    print("Nieuw stelsel")
     print(stelsel)
-
-#def trek_veelvoud_af(rij_1, rij_2, factor):  # vul aan
 
 def niet_nul_element(stelsel, k):
     print("Element: a", k, k, sep="")
     print(stelsel[k][k])
-
 
     r = k + 1
 
@@ -61,18 +44,39 @@ def niet_nul_element(stelsel, k):
     #teruggeefwaarde instellen
     return r
 
-#def Gauss_jordan(stelsel):  # vul aan
-    #print(stelsel)
+def Gauss_jordan(stelsel):  # vul aan
+    aantalRijen = len(stelsel)
 
+    for k in range(0, aantalRijen):
+        if stelsel[k][k] == 0:
+            #Nieuwe rij zoeken waar er een niet-nulelement is
+            nieuwe_rij = niet_nul_element(stelsel, k)
+
+            #Rijen verwisselen
+            verwissel(stelsel, k, nieuwe_rij)
+
+        #Indien eerste element niet nul is => rij delen door zichzelf
+        deel_door(stelsel[k], stelsel[k])
+
+        for r in range(0, aantalRijen):
+            if r != k:
+                trek_veelvoud_af(stelsel[r], stelsel[k], stelsel[r][k])
+
+    print(stelsel)
 
 # test Gauss_jordan methode
 stelsel = [
-    [-3, 1, 0, 0],
+    [1, 1/3, 0, 0],
     [0, 1, -2, 2],
     [-1, 0, 1, 7]
 ]
 
+#Testen
 
 #nieuwe_rij = niet_nul_element(stelsel, 0)
 #verwissel(stelsel, 0, nieuwe_rij)
-deel_door(0, stelsel[0][0])
+#deel_door(0, stelsel[0][0])
+#trek_veelvoud_af(stelsel[2], stelsel[0], stelsel[2][0])
+
+#Finale functie uitvoeren
+Gauss_jordan(stelsel)
