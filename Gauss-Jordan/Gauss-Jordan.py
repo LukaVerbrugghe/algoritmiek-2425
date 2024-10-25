@@ -1,9 +1,12 @@
+from random import gauss
+
+
 def verwissel(stelsel, index_1, index_2):
     origineelRij1 = stelsel[index_1]
     origineelRij2 = stelsel[index_2]
     stelsel[index_1] = origineelRij2
     stelsel[index_2] = origineelRij1
-    print(stelsel)
+    #print(stelsel)
 
 def deel_door(rij, deler):  # vul aan
     for i in range(len(rij)):
@@ -12,7 +15,7 @@ def deel_door(rij, deler):  # vul aan
 
 def trek_veelvoud_af(rij_1, rij_2, factor):
     for i in range(len(rij_1)):
-        rij_1[i] - factor * rij_2[i]
+        rij_1[i] = rij_1[i] - factor * rij_2[i]
     #print(stelsel)
 
 def niet_nul_element(stelsel, k):
@@ -33,12 +36,22 @@ def Gauss_jordan(stelsel):  # vul aan
             if r != k:
                 trek_veelvoud_af(stelsel[r],stelsel[k],stelsel[r][k])
 
-    print("Stelsel: " + str(stelsel))
+    print("Stelsel: \n")
+    print(stelsel)
+
+    return stelsel
 
 stelsel = [
-    [1, 1/3, 0, 0],
-    [0, 1, -2, 2],
-    [-1, 0, 1, 7]
+    [2, 6, -2, 9],
+    [2, 7, -1, 9],
+    [1, 4, 2, 5/2]
 ]
 
 Gauss_jordan(stelsel)
+
+def display_matrix(matrix):
+    for row in matrix:
+        print("[", " ".join(f"{val:.2f}" for val in row), "]")
+
+print("\n\n")
+display_matrix(Gauss_jordan(stelsel))
