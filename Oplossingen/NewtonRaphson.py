@@ -53,18 +53,15 @@ def horner(a, b, c, d, x0, tol, i):
     return a, b, c
 
 def discriminant(a, b, c):
-    D = b ** 2 - 4 * a * c
-    x = 0
+    D = float(b ** 2 - 4 * a * c)
     print("D = ", D)
     if D > 0:
-        x = (-b - np.sqrt(D)) / (2 * a)
+        return ((-b + np.sqrt(D)) / (2 * a), (-b - np.sqrt(D)) / (2 * a))
     elif D == 0:
-        x = -b / (2 * a)
+        return -b / (2 * a), None
     else:
         print("D < 0, geen nulpunten")
-
-    print("x = ", x)
-    return x
+        return None, None
 
 horner(1, 0, -8, -3, 3, 1E-13, 0)
 discriminant(1, 0, -8)

@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da2e8b91-c6ff-4f42-bdc1-323244b7791f" name="Changes" comment="tis gelukt" />
+    <list default="true" id="da2e8b91-c6ff-4f42-bdc1-323244b7791f" name="Changes" comment="discriminant --&gt; nog geen x1 en x2">
+      <change beforePath="$PROJECT_DIR$/.idea/Bisectiemethodes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Bisectiemethodes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oplossingen/NewtonRaphson.py" beforeDir="false" afterPath="$PROJECT_DIR$/Oplossingen/NewtonRaphson.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,18 +45,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.NewtonRapson.executor": "Run",
-    "Python.NewtonRapsonZonderRecursie.executor": "Run",
-    "Python.bisectiemethode_oefening2.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.codeium.enabled": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.BisectieOplossing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.NewtonRaphson.executor&quot;: &quot;Run&quot;,
+    &quot;Python.NewtonRapson.executor&quot;: &quot;Run&quot;,
+    &quot;Python.NewtonRapsonZonderRecursie.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bisectiemethode_oefening2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Daan.Hautekeete\PycharmProjects\Bisectiemethodes\oefening1" />
@@ -62,7 +68,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-98f27166c754-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.21829.153" />
+        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
       </set>
     </attachedChunks>
   </component>
@@ -123,7 +129,47 @@
       <option name="project" value="LOCAL" />
       <updated>1727853393324</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Oplossingen toegevoegd">
+      <option name="closed" value="true" />
+      <created>1728455990828</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728455990828</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Foutopvang df = 0">
+      <option name="closed" value="true" />
+      <created>1729062694756</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729062694756</updated>
+    </task>
+    <task id="LOCAL-00009" summary="return xn1">
+      <option name="closed" value="true" />
+      <created>1729666989934</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1729666989934</updated>
+    </task>
+    <task id="LOCAL-00010" summary="horner">
+      <option name="closed" value="true" />
+      <created>1729667727940</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1729667727940</updated>
+    </task>
+    <task id="LOCAL-00011" summary="discriminant --&gt; nog geen x1 en x2">
+      <option name="closed" value="true" />
+      <created>1729668103498</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1729668103498</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -132,6 +178,11 @@
     <MESSAGE value="x_n1 berekend" />
     <MESSAGE value="NewtonRapsonZonderRecursie.py loop godverdomme nog steeds oneindig" />
     <MESSAGE value="tis gelukt" />
-    <option name="LAST_COMMIT_MESSAGE" value="tis gelukt" />
+    <MESSAGE value="Oplossingen toegevoegd" />
+    <MESSAGE value="Foutopvang df = 0" />
+    <MESSAGE value="return xn1" />
+    <MESSAGE value="horner" />
+    <MESSAGE value="discriminant --&gt; nog geen x1 en x2" />
+    <option name="LAST_COMMIT_MESSAGE" value="discriminant --&gt; nog geen x1 en x2" />
   </component>
 </project>
