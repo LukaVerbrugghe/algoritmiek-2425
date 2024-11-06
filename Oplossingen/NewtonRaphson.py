@@ -74,3 +74,4 @@ def vinden_alle_nulpunten(a, b, c, d, x0, tol, i):
 
 horner(1, 0, -8, -3, 3, 1E-13, 0)
 discriminant(1, 0, -8)
+vinden_alle_nulpunten(1, 0, -8, -3, 3, 1E-13, 0)

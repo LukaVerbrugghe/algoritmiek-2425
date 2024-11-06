@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da2e8b91-c6ff-4f42-bdc1-323244b7791f" name="Changes" comment="discriminant, volledig">
+    <list default="true" id="da2e8b91-c6ff-4f42-bdc1-323244b7791f" name="Changes" comment="vind nulpunten">
       <change beforePath="$PROJECT_DIR$/Oplossingen/NewtonRaphson.py" beforeDir="false" afterPath="$PROJECT_DIR$/Oplossingen/NewtonRaphson.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -175,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730879135999</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="vind nulpunten">
+      <option name="closed" value="true" />
+      <created>1730880499897</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1730880499897</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -190,6 +198,7 @@
     <MESSAGE value="horner" />
     <MESSAGE value="discriminant --&gt; nog geen x1 en x2" />
     <MESSAGE value="discriminant, volledig" />
-    <option name="LAST_COMMIT_MESSAGE" value="discriminant, volledig" />
+    <MESSAGE value="vind nulpunten" />
+    <option name="LAST_COMMIT_MESSAGE" value="vind nulpunten" />
   </component>
 </project>
