@@ -63,5 +63,14 @@ def discriminant(a, b, c):
         print("D < 0, geen nulpunten")
         return None, None
 
+def vinden_alle_nulpunten(a, b, c, d, x0, tol, i):
+    a, b, c = horner(a, b, c, d, x0, tol, i)
+    U = discriminant(a, b, c)
+    if len(U) > 0:
+        for i in range(len(U)):
+            plt.scatter(U[i], 0, color='r')
+    plt.grid(True, which='both')
+    plt.show()
+
 horner(1, 0, -8, -3, 3, 1E-13, 0)
 discriminant(1, 0, -8)

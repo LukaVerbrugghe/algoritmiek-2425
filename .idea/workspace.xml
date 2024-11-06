@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da2e8b91-c6ff-4f42-bdc1-323244b7791f" name="Changes" comment="discriminant --&gt; nog geen x1 en x2">
-      <change beforePath="$PROJECT_DIR$/.idea/Bisectiemethodes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Bisectiemethodes.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="da2e8b91-c6ff-4f42-bdc1-323244b7791f" name="Changes" comment="discriminant, volledig">
       <change beforePath="$PROJECT_DIR$/Oplossingen/NewtonRaphson.py" beforeDir="false" afterPath="$PROJECT_DIR$/Oplossingen/NewtonRaphson.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -169,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729668103498</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="discriminant, volledig">
+      <option name="closed" value="true" />
+      <created>1730879135999</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1730879135999</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -183,6 +189,7 @@
     <MESSAGE value="return xn1" />
     <MESSAGE value="horner" />
     <MESSAGE value="discriminant --&gt; nog geen x1 en x2" />
-    <option name="LAST_COMMIT_MESSAGE" value="discriminant --&gt; nog geen x1 en x2" />
+    <MESSAGE value="discriminant, volledig" />
+    <option name="LAST_COMMIT_MESSAGE" value="discriminant, volledig" />
   </component>
 </project>
