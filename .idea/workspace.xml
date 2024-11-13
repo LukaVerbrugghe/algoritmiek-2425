@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da2e8b91-c6ff-4f42-bdc1-323244b7791f" name="Changes" comment="Juiste code van Gauss-Jordan toevoegen(wiskunde)">
+    <list default="true" id="da2e8b91-c6ff-4f42-bdc1-323244b7791f" name="Changes" comment="WIP Matrix correct tonen (wiskunde)">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_23_10_2024_2_27_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_23_10_2024_2_27__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_23_10_2024_8_36_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_23_10_2024_8_36__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gauss-Jordan/Gauss-Jordan.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gauss-Jordan/Gauss-Jordan.py" afterDir="false" />
     </list>
@@ -130,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729672396958</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="WIP Matrix correct tonen (wiskunde)">
+      <option name="closed" value="true" />
+      <created>1729843809937</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729843809937</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -139,6 +151,7 @@
     <MESSAGE value="Verder werken aan oefening (wiskunde)" />
     <MESSAGE value="WIP Gauss-Jordan (wiskunde)" />
     <MESSAGE value="Juiste code van Gauss-Jordan toevoegen(wiskunde)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Juiste code van Gauss-Jordan toevoegen(wiskunde)" />
+    <MESSAGE value="WIP Matrix correct tonen (wiskunde)" />
+    <option name="LAST_COMMIT_MESSAGE" value="WIP Matrix correct tonen (wiskunde)" />
   </component>
 </project>

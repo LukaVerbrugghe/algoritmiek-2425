@@ -36,20 +36,22 @@ def Gauss_jordan(stelsel):  # vul aan
             if r != k:
                 trek_veelvoud_af(stelsel[r],stelsel[k],stelsel[r][k])
 
-    print("Stelsel: \n")
-    print(stelsel)
+    #print("Stelsel: \n")
+    #print(stelsel)
 
     return stelsel
 
 stelsel = [
-    [2, 6, -2, 9],
-    [2, 7, -1, 9],
-    [1, 4, 2, 5/2]
+    [1, 1, 1, 1, 19],
+    [0, 1, 0, -1, 2],
+    [-1, 0, 1, 0, 1],
+    [91, 10, 10, 91, 838]
 ]
 
-Gauss_jordan(stelsel)
+#Gauss_jordan(stelsel)
 
 def display_matrix(matrix):
+    print("Stelsel:\n")
     for row in matrix:
         print("[", " ".join(f"{val:.2f}" for val in row), "]")
 
