@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da2e8b91-c6ff-4f42-bdc1-323244b7791f" name="Changes" comment="Oefening 1 van recursie afwerken (Algoritmiek)">
-      <change afterPath="$PROJECT_DIR$/Newton-Raphson methode/Recursie/Newton_Raphson_Recursie_volledigZelf.py" afterDir="false" />
+    <list default="true" id="da2e8b91-c6ff-4f42-bdc1-323244b7791f" name="Changes" comment="Oefening  Newton_Raphson met recursie(volledig zelf) afwerken (Algoritmiek)">
+      <change beforePath="$PROJECT_DIR$/Newton-Raphson methode/Recursie/Newton_Raphson_Recursie.py" beforeDir="false" afterPath="$PROJECT_DIR$/Newton-Raphson methode/Recursie/Newton_Raphson_Recursie.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,12 +52,14 @@
     "Python.Gauss-Jordan_Oplossing.executor": "Run",
     "Python.Newton-Raphson-Probleemstelling3.executor": "Run",
     "Python.Newton-Raphson-zonderRecursie_Oplossing.executor": "Run",
+    "Python.Newton_Raphson_Recursie.executor": "Run",
+    "Python.Newton_Raphson_Recursie_volledigZelf.executor": "Run",
     "Python.Oefening1_recursie.executor": "Run",
     "Python.Probleemstelling1 - zonder recursie.executor": "Run",
     "Python.bisectiemethode_oefening2.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.codeium.enabled": "true",
+    "com.codeium.snoozedEndTime": "0",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "settings.editor.selected.configurable": "preferences.keymap"
@@ -131,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731484110982</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Oefening  Newton_Raphson met recursie(volledig zelf) afwerken (Algoritmiek)">
+      <option name="closed" value="true" />
+      <created>1731485514389</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731485514389</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,6 +161,7 @@
     <MESSAGE value="Afwerken van regel van Horner (algo)" />
     <MESSAGE value="Toevoegen oplossing Gauss-Jordan (Wiskunde)" />
     <MESSAGE value="Oefening 1 van recursie afwerken (Algoritmiek)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Oefening 1 van recursie afwerken (Algoritmiek)" />
+    <MESSAGE value="Oefening  Newton_Raphson met recursie(volledig zelf) afwerken (Algoritmiek)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oefening  Newton_Raphson met recursie(volledig zelf) afwerken (Algoritmiek)" />
   </component>
 </project>
