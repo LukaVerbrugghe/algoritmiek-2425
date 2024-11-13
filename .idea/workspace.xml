@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da2e8b91-c6ff-4f42-bdc1-323244b7791f" name="Changes" comment="Afwerken van regel van Horner (algo)">
-      <change beforePath="$PROJECT_DIR$/Newton-Raphson methode/Probleemstelling 3/Newton-Raphson-Probleemstelling3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Newton-Raphson methode/Probleemstelling 3/Newton-Raphson-Probleemstelling3.py" afterDir="false" />
+    <list default="true" id="da2e8b91-c6ff-4f42-bdc1-323244b7791f" name="Changes" comment="Oefening 1 van recursie afwerken (Algoritmiek)">
+      <change afterPath="$PROJECT_DIR$/Newton-Raphson methode/Recursie/Newton_Raphson_Recursie_volledigZelf.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +28,12 @@
     &quot;assignee&quot;: &quot;DaanHautekeete&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/DaanHautekeete/Algoritmiek.git",
-    "accountId": "a406a62e-586a-4dbb-aeb3-bd43800dbce0"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DaanHautekeete/Algoritmiek.git&quot;,
+    &quot;accountId&quot;: &quot;a406a62e-586a-4dbb-aeb3-bd43800dbce0&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -49,8 +49,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Bissectiemethode_oplossing.executor": "Run",
+    "Python.Gauss-Jordan_Oplossing.executor": "Run",
     "Python.Newton-Raphson-Probleemstelling3.executor": "Run",
     "Python.Newton-Raphson-zonderRecursie_Oplossing.executor": "Run",
+    "Python.Oefening1_recursie.executor": "Run",
     "Python.Probleemstelling1 - zonder recursie.executor": "Run",
     "Python.bisectiemethode_oefening2.executor": "Run",
     "Python.main.executor": "Run",
@@ -113,7 +115,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729667762463</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Toevoegen oplossing Gauss-Jordan (Wiskunde)">
+      <option name="closed" value="true" />
+      <created>1731483343937</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731483343937</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Oefening 1 van recursie afwerken (Algoritmiek)">
+      <option name="closed" value="true" />
+      <created>1731484110982</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731484110982</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -131,6 +149,8 @@
     <MESSAGE value="Toevoegen van opdracht" />
     <MESSAGE value="Afwerken probleemstelling 1 (zonder recursie) - NR" />
     <MESSAGE value="Afwerken van regel van Horner (algo)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Afwerken van regel van Horner (algo)" />
+    <MESSAGE value="Toevoegen oplossing Gauss-Jordan (Wiskunde)" />
+    <MESSAGE value="Oefening 1 van recursie afwerken (Algoritmiek)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oefening 1 van recursie afwerken (Algoritmiek)" />
   </component>
 </project>
