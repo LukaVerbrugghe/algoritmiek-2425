@@ -20,22 +20,23 @@ def newton_raphson(a, b, c, d, x0, tol, i):
     f = a * x0 ** 3 + b * x0 ** 2 + c * x0 + d
     df = 3 * a * x0 ** 2 + 2 * b * x0 + c
     if abs(f) < tol:
+        x = np.linspace(-5, 5, 100)
+        y = a * x ** 3 + b * x ** 2 + c * x + d
+        plt.plot(x, y, color='b', label='functie')
+        plt.axhline(y=0, color='k')
+        plt.axvline(x=0, color='k')
+        plt.grid(True, which='both')
+        print("aantal iteraties: ")
+        print(i)
+        print("nulwaarde")
+        print(x0)
+        plt.scatter(x0, f, color='r', label='kleinste nulwaarde')
+        plt.legend()
         return x0
     else:
         return newton_raphson(a, b, c, d, x0 - f / df, tol, i)
 
-    x = np.linspace(-5, 5, 100)
-    y = a * x ** 3 + b * x ** 2 + c * x + d
-    plt.plot(x, y, color='b', label='functie')
-    plt.axhline(y=0, color='k')
-    plt.axvline(x=0, color='k')
-    plt.grid(True, which='both')
-    print("aantal iteraties: ")
-    print(i)
-    print("nulwaarde")
-    print(x_n1)
-    plt.scatter(x_n1, f, color='r', label='kleinste nulwaarde')
-    plt.legend()
+
 
 
 
