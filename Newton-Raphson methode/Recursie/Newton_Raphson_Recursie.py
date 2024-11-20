@@ -5,39 +5,19 @@ import matplotlib.pyplot as plt
 def newton_raphson(a, b, c, d, x0, tol, i):
     iteraties = []
     residual = []
-    # x_n = x0
-    # x_n1 = 4  # moet verschillende zijn van x0, anders geen iteraties, mag iets anders zijn ook
-    #
-    # while abs(x_n1 - x_n) > tol:
-    #     x_n = x_n1
-    #     i = i + 1  # aantal iteraties
-    #     f = a * x_n ** 3 + b * x_n ** 2 + c * x_n + d  # veelterm functie
-    #     df = 3 * a * x_n ** 2 + 2 * b * x_n + c
-    #     if df == 0:
-    #         df = 1
-    #     x_n1 = x_n - f / df
-    #     iteraties.append(i)
-    #     residual.append(abs(x_n1 - x_n))
+    x_n = x0
+    x_n1 = 4  # moet verschillende zijn van x0, anders geen iteraties, mag iets anders zijn ook
 
-    i += 1
-
-    # functie opstellen
-    f = a * x0 ** 3 + b * x0 ** 2 + c * x0 + d
-
-    # Afgeleide berekenen
-    df = 3 * a * x0 ** 2 + 2 * b * x0 + c
-
-    # Bepaal conditie om uit de loop te gaan
-    if abs(f) < tol:
-        return x0
-    else:
+    while abs(x_n1 - x_n) > tol:
+        x_n = x_n1
+        i = i + 1  # aantal iteraties
+        f = a * x_n ** 3 + b * x_n ** 2 + c * x_n + d  # veelterm functie
+        df = 3 * a * x_n ** 2 + 2 * b * x_n + c
         if df == 0:
-            df += 1
-        else:
-            # Recursie maken
-            return newton_raphson(a, b, c, d, x0 - f / df, tol, i)
-
-
+            df = 1
+        x_n1 = x_n - f / df
+        iteraties.append(i)
+        residual.append(abs(x_n1 - x_n))
 
     x = np.linspace(-5, 5, 100)
     y = a * x ** 3 + b * x ** 2 + c * x + d
@@ -48,8 +28,8 @@ def newton_raphson(a, b, c, d, x0, tol, i):
     print("aantal iteraties: ")
     print(i)
     print("nulwaarde")
-    # print(x_n1)
-    # plt.scatter(x_n1, f, color='r', label='kleinste nulwaarde')
+    print(x_n1)
+    plt.scatter(x_n1, f, color='r', label='kleinste nulwaarde')
     plt.legend()
     plt.show()
 
@@ -63,7 +43,7 @@ def newton_raphson(a, b, c, d, x0, tol, i):
     plt.legend()
     plt.show()
 
-    # return x_n1
+    return x_n1
 
 def horner(a, b, c, d, x0, tol, i):
     x0 = newton_raphson(a, b, c, d, x0, tol, i)
@@ -92,7 +72,6 @@ def vinden_alle_nulpunten(a, b, c, d, x0, tol, i):
     plt.grid(True, which='both')
     plt.show()
 
-newton_raphson(1, 0, -8)
 horner(1, 0, -8, -3, 3, 1E-13, 0)
 discriminant(1, 0, -8)
 vinden_alle_nulpunten(1, 0, -8, -3, 3, 1E-13, 0)
