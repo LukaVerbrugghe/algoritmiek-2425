@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da2e8b91-c6ff-4f42-bdc1-323244b7791f" name="Changes" comment="WIP opdracht NR (Algoritmiek)">
-      <change afterPath="$PROJECT_DIR$/Newton-Raphson methode/Opdracht 2 - newton raphson met recursie/Opdracht 2 - NR met recursie.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2024_8_32_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2024_8_32__Changes_.xml" beforeDir="false" />
+    <list default="true" id="da2e8b91-c6ff-4f42-bdc1-323244b7791f" name="Changes" comment="Oefening  Newton_Raphson met recursie(volledig zelf) afwerken (Algoritmiek)">
+      <change beforePath="$PROJECT_DIR$/.idea/Bisectiemethodes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Bisectiemethodes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Newton-Raphson methode/Recursie/Newton_Raphson_Recursie.py" beforeDir="false" afterPath="$PROJECT_DIR$/Newton-Raphson methode/Recursie/Newton_Raphson_Recursie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gauss-Jordan/Oplossing/Gauss-Jordan_Oplossing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Gauss-Jordan/Oplossing/Gauss-Jordan_Oplossing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,28 +49,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Bissectiemethode_oplossing.executor": "Run",
-    "Python.Gauss-Jordan_Oplossing.executor": "Run",
-    "Python.Newton-Raphson-Probleemstelling3.executor": "Run",
-    "Python.Newton-Raphson-zonderRecursie_Oplossing.executor": "Run",
-    "Python.Newton_Raphson_Recursie.executor": "Run",
-    "Python.Newton_Raphson_Recursie_volledigZelf.executor": "Run",
-    "Python.Oefening1_recursie.executor": "Run",
-    "Python.Opdracht 2 - NR met recursie.executor": "Run",
-    "Python.Probleemstelling1 - zonder recursie.executor": "Run",
-    "Python.bisectiemethode_oefening2.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "com.codeium.enabled": "true",
-    "com.codeium.snoozedEndTime": "0",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Bissectiemethode_oplossing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Gauss-Jordan_Oplossing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Newton-Raphson-Probleemstelling3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Newton-Raphson-zonderRecursie_Oplossing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Newton_Raphson_Recursie.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Newton_Raphson_Recursie_volledigZelf.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Oefening1_recursie.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Probleemstelling1 - zonder recursie.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bisectiemethode_oefening2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.codeium.snoozedEndTime&quot;: &quot;0&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="Z:\oefen\Algo\Github\Bisectiemethodes" />
@@ -87,7 +83,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
+        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
       </set>
     </attachedChunks>
   </component>
@@ -148,15 +144,7 @@
       <option name="project" value="LOCAL" />
       <updated>1731485514389</updated>
     </task>
-    <task id="LOCAL-00007" summary="WIP opdracht NR (Algoritmiek)">
-      <option name="closed" value="true" />
-      <created>1731486036914</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1731486036914</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,7 +165,6 @@
     <MESSAGE value="Toevoegen oplossing Gauss-Jordan (Wiskunde)" />
     <MESSAGE value="Oefening 1 van recursie afwerken (Algoritmiek)" />
     <MESSAGE value="Oefening  Newton_Raphson met recursie(volledig zelf) afwerken (Algoritmiek)" />
-    <MESSAGE value="WIP opdracht NR (Algoritmiek)" />
-    <option name="LAST_COMMIT_MESSAGE" value="WIP opdracht NR (Algoritmiek)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oefening  Newton_Raphson met recursie(volledig zelf) afwerken (Algoritmiek)" />
   </component>
 </project>

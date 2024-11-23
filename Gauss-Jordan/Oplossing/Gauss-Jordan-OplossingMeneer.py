@@ -63,8 +63,9 @@ def Gauss_jordan(stelsel):
 
 # test Gauss_jordan methode
 
-stelsel = [[-0.35,0.15,0,0],
-           [0.24,-0.4,0.15,0],
-           [1,1,1,800]]
+stelsel = [[4, -1, 0, -1, 30],
+           [-1, 4, -1, 0, 60],
+           [0, -1, 4, -1, 70],
+           [-1, 0, -1, 4, 40]]
 
 Gauss_jordan(stelsel)
