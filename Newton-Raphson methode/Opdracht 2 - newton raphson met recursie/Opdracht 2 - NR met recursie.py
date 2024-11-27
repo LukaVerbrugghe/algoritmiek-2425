@@ -77,6 +77,6 @@ def vind_alle_nulpunten(a, b, c, d, x0, tol, i):
     plt.grid(True, which='both')
     plt.show()
 
-vind_alle_nulpunten(1, 0, -8, -3, 2.5, 1E-13, 0)
+vind_alle_nulpunten(1, 0, -8, -3, 3, 1E-13, 0)
 
 
