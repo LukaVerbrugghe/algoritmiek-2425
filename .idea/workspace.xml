@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da2e8b91-c6ff-4f42-bdc1-323244b7791f" name="Changes" comment="vind nulpunten">
-      <change beforePath="$PROJECT_DIR$/Oplossingen/NewtonRaphson.py" beforeDir="false" afterPath="$PROJECT_DIR$/Oplossingen/NewtonRaphson.py" afterDir="false" />
+    <list default="true" id="da2e8b91-c6ff-4f42-bdc1-323244b7791f" name="Changes" comment="alternerende rijen">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bijzondere rijen/fibonachi.py" beforeDir="false" afterPath="$PROJECT_DIR$/bijzondere rijen/fibonachi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +35,9 @@
     &quot;accountId&quot;: &quot;7e03d190-742a-4a7c-b3e7-687706a67dd3&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/recursie/NR-Recursie.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -43,20 +47,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.BisectieOplossing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.NewtonRaphson.executor&quot;: &quot;Run&quot;,
-    &quot;Python.NewtonRapson.executor&quot;: &quot;Run&quot;,
-    &quot;Python.NewtonRapsonZonderRecursie.executor&quot;: &quot;Run&quot;,
-    &quot;Python.bisectiemethode_oefening2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.BisectieOplossing.executor": "Run",
+    "Python.NR-Recursie.executor": "Run",
+    "Python.NewtonRaphson.executor": "Run",
+    "Python.NewtonRapson.executor": "Run",
+    "Python.NewtonRapsonZonderRecursie.executor": "Run",
+    "Python.Recursie-zeshoeken.executor": "Run",
+    "Python.alternerenderij.executor": "Run",
+    "Python.bisectiemethode_oefening2.executor": "Run",
+    "Python.fibonachi.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Daan.Hautekeete\PycharmProjects\Bisectiemethodes\oefening1" />
@@ -183,7 +191,95 @@
       <option name="project" value="LOCAL" />
       <updated>1730880499897</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="functie oproepen ???">
+      <option name="closed" value="true" />
+      <created>1730880723636</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1730880723636</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add Recursie-zeshoeken.py">
+      <option name="closed" value="true" />
+      <created>1731483646867</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1731483646867</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Recursie functie">
+      <option name="closed" value="true" />
+      <created>1731484017451</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1731484017451</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Add NR-Recursie.py">
+      <option name="closed" value="true" />
+      <created>1731484141038</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1731484141038</updated>
+    </task>
+    <task id="LOCAL-00018" summary="NR met recursie">
+      <option name="closed" value="true" />
+      <created>1731485647183</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1731485647183</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Recursion WIP">
+      <option name="closed" value="true" />
+      <created>1732090092190</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1732090092190</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Recursion">
+      <option name="closed" value="true" />
+      <created>1732090720804</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1732090720804</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Empty fibonachi.py">
+      <option name="closed" value="true" />
+      <created>1736322133943</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1736322133943</updated>
+    </task>
+    <task id="LOCAL-00022" summary="fibonachi reeks">
+      <option name="closed" value="true" />
+      <created>1736322390159</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1736322390159</updated>
+    </task>
+    <task id="LOCAL-00023" summary="empty alternerenderij.py">
+      <option name="closed" value="true" />
+      <created>1736322460803</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1736322460803</updated>
+    </task>
+    <task id="LOCAL-00024" summary="alternerende rijen">
+      <option name="closed" value="true" />
+      <created>1736322592383</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1736322592383</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -199,6 +295,17 @@
     <MESSAGE value="discriminant --&gt; nog geen x1 en x2" />
     <MESSAGE value="discriminant, volledig" />
     <MESSAGE value="vind nulpunten" />
-    <option name="LAST_COMMIT_MESSAGE" value="vind nulpunten" />
+    <MESSAGE value="functie oproepen ???" />
+    <MESSAGE value="Add Recursie-zeshoeken.py" />
+    <MESSAGE value="Recursie functie" />
+    <MESSAGE value="Add NR-Recursie.py" />
+    <MESSAGE value="NR met recursie" />
+    <MESSAGE value="Recursion WIP" />
+    <MESSAGE value="Recursion" />
+    <MESSAGE value="Empty fibonachi.py" />
+    <MESSAGE value="fibonachi reeks" />
+    <MESSAGE value="empty alternerenderij.py" />
+    <MESSAGE value="alternerende rijen" />
+    <option name="LAST_COMMIT_MESSAGE" value="alternerende rijen" />
   </component>
 </project>
