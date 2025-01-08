@@ -1,3 +1,5 @@
+import matplotlib.pyplot as plt
+
 def Alternerend(n):
     x = []
     startwaarde = 1
@@ -10,5 +12,12 @@ def Alternerend(n):
         x.append(uitkomst)
 
     print(x)
+
+    #Lijst plotten
+    plt.plot(x)
+    plt.xlabel('Index')
+    plt.ylabel('Alternerend waarde')
+    plt.title('Alternerend rij')
+    plt.show()
 
 Alternerend(10)
