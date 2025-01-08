@@ -2,14 +2,20 @@ import matplotlib.pyplot as plt
 
 def Alternerend(n):
     x = []
-    startwaarde = 1
-    x.append(startwaarde)
+    #dit is voor recursief
+    # startwaarde = 1
+    # x.append(startwaarde)
 
-    #algoritme voor alle waarden te berekenen
-    for n in range(10):
-        uitkomst = -startwaarde * 2
-        startwaarde = uitkomst
-        x.append(uitkomst)
+    #algoritme voor alle waarden te berekenen - recursief
+    # for n in range(10):
+    #     uitkomst = -startwaarde * 2
+    #     startwaarde = uitkomst
+    #     x.append(uitkomst)
+
+    #algoritme voor alle waarden te brekenen - expliciet
+    for k in range(n):
+        l = (-2)**k
+        x.append(l)
 
     print(x)
 
