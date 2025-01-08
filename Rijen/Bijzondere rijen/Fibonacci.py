@@ -23,7 +23,8 @@ def Fibonacci(n):
 x = Fibonacci(10)
 
 
-plt.plot(x)
+for h in range(len(x)):
+    plt.scatter(h,x[h],color = 'r')
 plt.xlabel('Index')
 plt.ylabel('Fibonacci waarde')
 plt.title('Fibonacci rij')

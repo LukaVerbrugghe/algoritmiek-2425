@@ -20,7 +20,8 @@ def Alternerend(n):
     print(x)
 
     #Lijst plotten
-    plt.plot(x)
+    for h in range(len(x)):
+        plt.scatter(h,x[h],color = 'r')
     plt.xlabel('Index')
     plt.ylabel('Alternerend waarde')
     plt.title('Alternerend rij')
