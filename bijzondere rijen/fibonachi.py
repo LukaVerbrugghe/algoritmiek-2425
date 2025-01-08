@@ -1,3 +1,5 @@
+import matplotlib.pyplot as plt
+
 def fibonachi():
     vorigGetal = 0
     huidigeGetal = 1
@@ -9,5 +11,8 @@ def fibonachi():
         vorigGetal = huidigeGetal
         huidigeGetal = nieuweGetal
     print(x)
+
+    plt.plot(x)
+    plt.show()
 
 fibonachi()
