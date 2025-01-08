@@ -10,9 +10,10 @@ def fibonachi():
         nieuweGetal = vorigGetal + huidigeGetal
         vorigGetal = huidigeGetal
         huidigeGetal = nieuweGetal
-    print(x)
 
-    plt.plot(x)
+    print(x)
+    for i in range(len(x)):
+        plt.scatter(i, x[i])
     plt.show()
 
 fibonachi()
