@@ -1,3 +1,5 @@
+import matplotlib.pyplot as plt
+
 def alternerendeRij(startwaarde):
     x = []
     # herhaal 10 keer
@@ -5,5 +7,6 @@ def alternerendeRij(startwaarde):
         x.append(startwaarde)
         startwaarde = -startwaarde * 2
     print(x)
-
+    plt.plot(x)
+    plt.show()
 alternerendeRij(1)
