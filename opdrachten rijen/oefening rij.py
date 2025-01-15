@@ -5,7 +5,7 @@ def rij(startwaarde):
     # een leeg array voor oplossing
     x = []
     # we willen 10 rijen
-    for i in range(10):
+    for i in range(30):
         x.append(startwaarde)
         # functievoorschrift
         startwaarde = (startwaarde + 10) / 2
