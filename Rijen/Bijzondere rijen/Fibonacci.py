@@ -21,6 +21,7 @@ def Fibonacci(n):
 
 
 x = Fibonacci(10)
+print(x)
 
 
 for h in range(len(x)):
