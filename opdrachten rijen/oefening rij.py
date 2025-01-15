@@ -1,13 +1,14 @@
 import matplotlib.pyplot as plt
 
-def alternerendeRij(startwaarde):
+#rijen van un = (un-1 + 10) / 2
+def rij(startwaarde):
     x = []
-    # herhaal 10 keer
     for i in range(10):
         x.append(startwaarde)
-        startwaarde = -startwaarde * 2
+        startwaarde = (startwaarde + 10) / 2
     print(x)
     for i in range(len(x)):
         plt.scatter(i, x[i])
     plt.show()
-alternerendeRij(1)
+
+rij(2)
