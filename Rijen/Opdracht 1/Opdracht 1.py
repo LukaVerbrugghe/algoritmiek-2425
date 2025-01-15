@@ -5,7 +5,7 @@ def berekening():
     x= []
 
     # algoritme voor alle waarden te berekenen
-    for i in range(10):
+    for i in range(30):
         #als de eerste term 0 is, dan gebruiken we U1
         if i == 0:
             uitkomst = 2
@@ -26,3 +26,5 @@ def berekening():
     plt.show()
 
 berekening()
+
+#uitkomst => het convergeert naar 10
