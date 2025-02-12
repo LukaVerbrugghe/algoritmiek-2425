@@ -32,6 +32,10 @@ def berekening():
         plt.scatter(i, j, color='r')
 
     plt.show()
+    plt.yscale("log")
+    plt.scatter(iteraties, residuals, color='g', label="residuals")
+    plt.legend()
+    plt.show()
 
 berekening()
 
