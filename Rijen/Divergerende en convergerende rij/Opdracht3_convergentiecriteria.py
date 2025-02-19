@@ -3,7 +3,9 @@ import matplotlib.pyplot as plt
 
 def berekening():
     x = []
+    #aantal iteraties
     i = 0
+
     j = 1
     k = 0
 
