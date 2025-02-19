@@ -2,7 +2,6 @@ import matplotlib.pyplot as plt
 
 # gedrag op oneindig berekenen
 
-# functie voor het berekenen van de waarde van de functie met n als parameter
 x = []
 for i in range(100):
     if i == 0:
