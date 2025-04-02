@@ -3,6 +3,8 @@ x_1 = 0
 x_2 = 0
 x_3 = 0
 
+iteraties = 0
+
 #     functievoorschriften per punt
 def bereken_x_1():
     return (7 - x_2 - x_3) / 2
@@ -32,10 +34,13 @@ while(not check_x_1() or not check_x_2() or not check_x_3()):
     print(x_2)
     x_3 = bereken_x_3()
     print(x_3)
-
+    iteraties += 1
 
 print("Eindwaarden:")
 print("")
 print(x_1)
 print(x_2)
 print(x_3)
+
+print("Aantal iteraties:")
+print(iteraties)
