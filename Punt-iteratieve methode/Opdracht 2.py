@@ -17,4 +17,24 @@ oplossingenx2.append(x_2)
 oplossingenx3.append(x_3)
 
 x_1 = (5 - 2*x_2 - 4*x_3) / 2
-x_2 = (-16 + 4*x_1 + 8*x_3) / 3
+x_2 = (-16 + 4*x_1 + 8*x_3) / -3
+x_3 = (12 + 3*x_2) / 2
+
+#Nieuwe oplossingen toevoegen aan de lijst
+oplossingenx1.append(x_1)
+oplossingenx2.append(x_2)
+oplossingenx3.append(x_3)
+
+
+#convergentiecriteria opstellen
+while(abs(oplossingenx2[-1] - oplossingenx2[-2]) > 0.001):
+    i += 1
+    x_1 = round(((5 - 2 * x_2 - 4 * x_3) / 2), 3)
+    x_2 = round(((-16 + 4 * x_1 + 8 * x_3) / -3), 3)
+    x_3 = round(((12 + 3 * x_2) / 2), 3)
+
+    oplossingenx1.append(x_1)
+    oplossingenx2.append(x_2)
+    oplossingenx3.append(x_3)
+
+print("Oplossingen\nOplossing x1: ", x_1, "\nOplossing x2: ", x_2, "\nOplossing x3: ", x_3, "\nAantal iteraties: ", i)
