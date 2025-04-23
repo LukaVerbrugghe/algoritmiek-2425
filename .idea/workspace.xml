@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da2e8b91-c6ff-4f42-bdc1-323244b7791f" name="Changes" comment="Toevoegen voorbereiding opstellen van convergentiecriteria">
-      <change afterPath="$PROJECT_DIR$/Punt-iteratieve methode/Opdracht 3.py" afterDir="false" />
+    <list default="true" id="da2e8b91-c6ff-4f42-bdc1-323244b7791f" name="Changes" comment="Plot correct maken (het zijn discrete punten)">
       <change beforePath="$PROJECT_DIR$/.idea/Bisectiemethodes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Bisectiemethodes.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Punt-iteratieve methode/Opdracht 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Punt-iteratieve methode/Opdracht 2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +33,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/DaanHautekeete/Algoritmiek.git&quot;,
-    &quot;accountId&quot;: &quot;0ba70db8-8022-44f4-a491-2babd21dddff&quot;
+    &quot;accountId&quot;: &quot;a406a62e-586a-4dbb-aeb3-bd43800dbce0&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -46,7 +44,8 @@
 }</component>
   <component name="ProjectId" id="2mEYTiI1mJ42IUvTN0ouX3U05Cw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -55,10 +54,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Alternerend.executor": "Run",
-    "Python.Alternerende rij.executor": "Run",
-    "Python.Bisectiemethode.executor": "Run",
     "Python.Bissectiemethode_oplossing.executor": "Run",
     "Python.Fibonacci.executor": "Run",
+    "Python.Gauss-Jordan-OplossingMeneer.executor": "Run",
     "Python.Gauss-Jordan_Oplossing.executor": "Run",
     "Python.Newton-Raphson-Probleemstelling3.executor": "Run",
     "Python.Newton-Raphson-zonderRecursie_Oplossing.executor": "Run",
@@ -66,24 +64,18 @@
     "Python.Newton_Raphson_Recursie_volledigZelf.executor": "Run",
     "Python.Oefening1_recursie.executor": "Run",
     "Python.Opdracht 1.executor": "Run",
-    "Python.Opdracht 2.executor": "Run",
-    "Python.Opdracht 3.executor": "Run",
-    "Python.Opdracht1.executor": "Run",
-    "Python.Opdracht2.executor": "Run",
-    "Python.Opdracht2_convergentiecriteria.executor": "Run",
-    "Python.Opdracht3.executor": "Run",
-    "Python.Opdracht3_convergentiecriteria.executor": "Run",
-    "Python.Opdracht4.executor": "Run",
-    "Python.Opdracht4_convergentiecriteria.executor": "Run",
+    "Python.Opdracht 2 - NR met recursie.executor": "Run",
     "Python.Probleemstelling1 - zonder recursie.executor": "Run",
+    "Python.Toets-PuntIteratieveMethode_DaanHautekeete.executor": "Run",
     "Python.bisectiemethode_oefening2.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "com.codeium.enabled": "true",
-    "com.codeium.snoozedEndTime": "1737493400185",
+    "com.codeium.snoozedEndTime": "0",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "settings.editor.selected.configurable": "settings.sync"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -101,7 +93,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102" />
+        <option value="bundled-python-sdk-495700d161d3-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.22562.220" />
       </set>
     </attachedChunks>
   </component>
@@ -162,31 +154,39 @@
       <option name="project" value="LOCAL" />
       <updated>1731485514389</updated>
     </task>
-    <task id="LOCAL-00007" summary="Maken probleemstelling 1 bisectiemethode">
+    <task id="LOCAL-00007" summary="WIP opdracht NR (Algoritmiek)">
       <option name="closed" value="true" />
-      <created>1733860886879</created>
+      <created>1731486036914</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1733860886879</updated>
+      <updated>1731486036914</updated>
     </task>
-    <task id="LOCAL-00008" summary="Toevoegen van voorbereiding toets rijen">
+    <task id="LOCAL-00008" summary="Toevoegen plotten aan oef. Alternerend.py">
       <option name="closed" value="true" />
-      <created>1737490572907</created>
+      <created>1736323545065</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1737490572907</updated>
+      <updated>1736323545065</updated>
     </task>
-    <task id="LOCAL-00009" summary="Toevoegen voorbereiding opstellen van convergentiecriteria">
+    <task id="LOCAL-00009" summary="Toevoegen expl. methode aan oef. Alternerend.py">
       <option name="closed" value="true" />
-      <created>1740417198131</created>
+      <created>1736323774438</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1740417198131</updated>
+      <updated>1736323774438</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Plot correct maken (het zijn discrete punten)">
+      <option name="closed" value="true" />
+      <created>1736324387751</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1736324387751</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,9 +207,10 @@
     <MESSAGE value="Toevoegen oplossing Gauss-Jordan (Wiskunde)" />
     <MESSAGE value="Oefening 1 van recursie afwerken (Algoritmiek)" />
     <MESSAGE value="Oefening  Newton_Raphson met recursie(volledig zelf) afwerken (Algoritmiek)" />
-    <MESSAGE value="Maken probleemstelling 1 bisectiemethode" />
-    <MESSAGE value="Toevoegen van voorbereiding toets rijen" />
-    <MESSAGE value="Toevoegen voorbereiding opstellen van convergentiecriteria" />
-    <option name="LAST_COMMIT_MESSAGE" value="Toevoegen voorbereiding opstellen van convergentiecriteria" />
+    <MESSAGE value="WIP opdracht NR (Algoritmiek)" />
+    <MESSAGE value="Toevoegen plotten aan oef. Alternerend.py" />
+    <MESSAGE value="Toevoegen expl. methode aan oef. Alternerend.py" />
+    <MESSAGE value="Plot correct maken (het zijn discrete punten)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Plot correct maken (het zijn discrete punten)" />
   </component>
 </project>
