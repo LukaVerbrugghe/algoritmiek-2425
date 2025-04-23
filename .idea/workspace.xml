@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da2e8b91-c6ff-4f42-bdc1-323244b7791f" name="Changes" comment="Toets (van voor de vakantie)">
+    <list default="true" id="da2e8b91-c6ff-4f42-bdc1-323244b7791f" name="Changes" comment="Aantal iteraties">
+      <change afterPath="$PROJECT_DIR$/Oplossingen/GaussJordan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toetsen/toets23042025LukaVerbrugghe.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,31 +48,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.BisectieOplossing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.NR-Recursie.executor&quot;: &quot;Run&quot;,
-    &quot;Python.NewtonRaphson.executor&quot;: &quot;Run&quot;,
-    &quot;Python.NewtonRapson.executor&quot;: &quot;Run&quot;,
-    &quot;Python.NewtonRapsonZonderRecursie.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Recursie-zeshoeken.executor&quot;: &quot;Run&quot;,
-    &quot;Python.alternerenderij.executor&quot;: &quot;Run&quot;,
-    &quot;Python.bisectiemethode_oefening2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.fibonachi.executor&quot;: &quot;Run&quot;,
-    &quot;Python.gedragOpOneindigA.executor&quot;: &quot;Run&quot;,
-    &quot;Python.gedragOpOneindigB.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.oefening rij.executor&quot;: &quot;Run&quot;,
-    &quot;Python.toets22012025LukaVerbrugghe.executor&quot;: &quot;Run&quot;,
-    &quot;Python.toets26022025LukaVerbrugghe.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;com.codeium.snoozedEndTime&quot;: &quot;1738746625004&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.language&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.BisectieOplossing.executor": "Run",
+    "Python.GaussJordan.executor": "Run",
+    "Python.NR-Recursie.executor": "Run",
+    "Python.NewtonRaphson.executor": "Run",
+    "Python.NewtonRapson.executor": "Run",
+    "Python.NewtonRapsonZonderRecursie.executor": "Run",
+    "Python.Recursie-zeshoeken.executor": "Run",
+    "Python.alternerenderij.executor": "Run",
+    "Python.bisectiemethode_oefening2.executor": "Run",
+    "Python.fibonachi.executor": "Run",
+    "Python.gedragOpOneindigA.executor": "Run",
+    "Python.gedragOpOneindigB.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.oefening rij.executor": "Run",
+    "Python.punt-iteratief.executor": "Run",
+    "Python.toets22012025LukaVerbrugghe.executor": "Run",
+    "Python.toets23042025LukaVerbrugghe.executor": "Run",
+    "Python.toets26022025LukaVerbrugghe.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.codeium.enabled": "true",
+    "com.codeium.snoozedEndTime": "1738746625004",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "configurable.group.language"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Daan.Hautekeete\PycharmProjects\Bisectiemethodes\oefening1" />
@@ -381,12 +386,26 @@
       <option name="project" value="LOCAL" />
       <updated>1741767407709</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Oplossen van 3 vergelijkingen met punt-iteratieve methode">
+      <option name="closed" value="true" />
+      <created>1743576332062</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1743576332062</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Aantal iteraties">
+      <option name="closed" value="true" />
+      <created>1743576511010</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1743576511010</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="discriminant, volledig" />
-    <MESSAGE value="vind nulpunten" />
     <MESSAGE value="functie oproepen ???" />
     <MESSAGE value="Add Recursie-zeshoeken.py" />
     <MESSAGE value="Recursie functie" />
@@ -410,6 +429,8 @@
     <MESSAGE value="Gedrag op oneindig oefening a" />
     <MESSAGE value="Gedrag op oneindig oefening b" />
     <MESSAGE value="Toets (van voor de vakantie)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Toets (van voor de vakantie)" />
+    <MESSAGE value="Oplossen van 3 vergelijkingen met punt-iteratieve methode" />
+    <MESSAGE value="Aantal iteraties" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aantal iteraties" />
   </component>
 </project>
