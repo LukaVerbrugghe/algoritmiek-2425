@@ -17,4 +17,15 @@ L_2_series.append(0)
 L_2_series.append(1)
 iteraties = []
 residual = []
+
+def L2(x,y,z):
+    summation = 0
+    l2 = 0
+    summation = x**2 + y**2 + z**2
+    l2 = np.sqrt(summation)
+    return l2
+
 i = 0
+while 1 == 1:
+    print("Zie oplossing meneer")
+    # zie oplossing meneer
