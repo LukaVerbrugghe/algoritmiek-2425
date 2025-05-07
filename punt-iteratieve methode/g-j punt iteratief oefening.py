@@ -17,13 +17,17 @@ def L2(x,y,z):
     return l2
 
 while abs(L2(x_1[-1],x_2[-1],x_3[-1]) - L2(x_1[-2],x_2[-2],x_3[-2])) > 0.001:
-    x = (7 - y -z) / 2
-    y = (2 + x + z) / 3
-    z = (5 - x + y) / 2
+    x = (5 - 2 * y - 4 * z) / 10
+    y = (16 - 4 * x - 5 * z) / 9
+    z = (12 + 3 * y) / 2
 
     x_1.append(x)
+    print(x)
     x_2.append(y)
+    print(y)
     x_3.append(z)
+    print(z)
 
 # uitkomst printen
+print()
 print(round(x,2),round(y,2),round(z,2))
