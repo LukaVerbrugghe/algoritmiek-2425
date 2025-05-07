@@ -28,4 +28,4 @@ def L2(x,y,z):
 i = 0
 while 1 == 1:
     print("Zie oplossing meneer of Daan")
-    # zie oplossing meneer
+    # zie oplossing meneer (in bestand g-j punt iteratief meneer.py

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da2e8b91-c6ff-4f42-bdc1-323244b7791f" name="Changes" comment="Aantal iteraties">
-      <change afterPath="$PROJECT_DIR$/Oplossingen/GaussJordan.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toetsen/toets23042025LukaVerbrugghe.py" afterDir="false" />
+    <list default="true" id="da2e8b91-c6ff-4f42-bdc1-323244b7791f" name="Changes" comment="Zie oplossing meneer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,9 +58,12 @@
     "Python.alternerenderij.executor": "Run",
     "Python.bisectiemethode_oefening2.executor": "Run",
     "Python.fibonachi.executor": "Run",
+    "Python.gauss-jordann punt iteratief temperatuur.executor": "Run",
     "Python.gedragOpOneindigA.executor": "Run",
     "Python.gedragOpOneindigB.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.oefenign-puntjes-GJ.executor": "Run",
+    "Python.oefenign-puntjes.executor": "Run",
     "Python.oefening rij.executor": "Run",
     "Python.punt-iteratief.executor": "Run",
     "Python.toets22012025LukaVerbrugghe.executor": "Run",
@@ -73,10 +74,14 @@
     "com.codeium.enabled": "true",
     "com.codeium.snoozedEndTime": "1738746625004",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/luka.verbrugghe/PycharmProjects/algoritmiek-2425/punt-iteratieve methode",
     "settings.editor.selected.configurable": "configurable.group.language"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\luka.verbrugghe\PycharmProjects\algoritmiek-2425\punt-iteratieve methode" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Daan.Hautekeete\PycharmProjects\Bisectiemethodes\oefening1" />
       <recent name="C:\Users\Daan.Hautekeete\PycharmProjects\Bisectiemethodes" />
@@ -402,13 +407,34 @@
       <option name="project" value="LOCAL" />
       <updated>1743576511010</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Toets">
+      <option name="closed" value="true" />
+      <created>1745391265824</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1745391265824</updated>
+    </task>
+    <task id="LOCAL-00040" summary="G-J punt iteratief">
+      <option name="closed" value="true" />
+      <created>1745996251087</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1745996251087</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Zie oplossing meneer">
+      <option name="closed" value="true" />
+      <created>1745997310157</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1745997310157</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="functie oproepen ???" />
-    <MESSAGE value="Add Recursie-zeshoeken.py" />
-    <MESSAGE value="Recursie functie" />
     <MESSAGE value="Add NR-Recursie.py" />
     <MESSAGE value="NR met recursie" />
     <MESSAGE value="Recursion WIP" />
@@ -431,6 +457,9 @@
     <MESSAGE value="Toets (van voor de vakantie)" />
     <MESSAGE value="Oplossen van 3 vergelijkingen met punt-iteratieve methode" />
     <MESSAGE value="Aantal iteraties" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aantal iteraties" />
+    <MESSAGE value="Toets" />
+    <MESSAGE value="G-J punt iteratief" />
+    <MESSAGE value="Zie oplossing meneer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zie oplossing meneer" />
   </component>
 </project>
