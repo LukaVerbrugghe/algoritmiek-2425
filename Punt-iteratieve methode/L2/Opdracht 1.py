@@ -17,10 +17,11 @@ def L2(x, y, z):
     L2 = np.sqrt(summation)
     return L2
 
-while abs((L2(x_1[-1], x_2[-1], x_3[-1]) ) - L2(x_1[-2], x_2[-2], x_3[-2])):
-    x = (7 - y - z) /  2
-    y = (2 + x + z) / 3
-    z = (5 - x + y ) / 2
+
+while abs((L2(x_1[-1], x_2[-1], x_3[-1]) ) - L2(x_1[-2], x_2[-2], x_3[-2])) > 0.001:
+    x = (5 -2*y -4*z) / 10
+    y = (16 - 4*x - 5*z) / 9
+    z = (12 + 3 *y) / 2
 
     x_1.append(x)
     x_2.append(y)
