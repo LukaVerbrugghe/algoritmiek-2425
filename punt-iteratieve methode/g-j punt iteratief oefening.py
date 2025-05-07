@@ -8,6 +8,8 @@ x = 0
 y = 0
 z = 0
 
+i = 0
+
 # functie voor de L2 norm
 def L2(x,y,z):
     summation = 0
@@ -21,13 +23,17 @@ while abs(L2(x_1[-1],x_2[-1],x_3[-1]) - L2(x_1[-2],x_2[-2],x_3[-2])) > 0.001:
     y = (16 - 4 * x - 5 * z) / 9
     z = (12 + 3 * y) / 2
 
+    print("iteratie",i)
     x_1.append(x)
-    print(x)
+    print("x",x)
     x_2.append(y)
-    print(y)
+    print("y",y)
     x_3.append(z)
-    print(z)
+    print("z",z)
+    print()
+    i+=1
 
 # uitkomst printen
 print()
+print("Na",i,"iteraties")
 print(round(x,2),round(y,2),round(z,2))
