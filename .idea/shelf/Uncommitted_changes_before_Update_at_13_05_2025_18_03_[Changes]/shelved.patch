@@ -1,0 +1,126 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"da2e8b91-c6ff-4f42-bdc1-323244b7791f\" name=\"Changes\" comment=\"Toevoegen voorbereiding opstellen van convergentiecriteria\">\r\n      <change afterPath=\"$PROJECT_DIR$/Punt-iteratieve methode/Opdracht 3.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/Bisectiemethodes.iml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/Bisectiemethodes.iml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/misc.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Punt-iteratieve methode/Opdracht 2.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Punt-iteratieve methode/Opdracht 2.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;DaanHautekeete&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/DaanHautekeete/Algoritmiek.git&quot;,\r\n    &quot;accountId&quot;: &quot;0ba70db8-8022-44f4-a491-2babd21dddff&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 3\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2mEYTiI1mJ42IUvTN0ouX3U05Cw\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Python.Alternerend.executor\": \"Run\",\r\n    \"Python.Alternerende rij.executor\": \"Run\",\r\n    \"Python.Bisectiemethode.executor\": \"Run\",\r\n    \"Python.Bissectiemethode_oplossing.executor\": \"Run\",\r\n    \"Python.Fibonacci.executor\": \"Run\",\r\n    \"Python.Gauss-Jordan_Oplossing.executor\": \"Run\",\r\n    \"Python.Newton-Raphson-Probleemstelling3.executor\": \"Run\",\r\n    \"Python.Newton-Raphson-zonderRecursie_Oplossing.executor\": \"Run\",\r\n    \"Python.Newton_Raphson_Recursie.executor\": \"Run\",\r\n    \"Python.Newton_Raphson_Recursie_volledigZelf.executor\": \"Run\",\r\n    \"Python.Oefening1_recursie.executor\": \"Run\",\r\n    \"Python.Opdracht 1.executor\": \"Run\",\r\n    \"Python.Opdracht 2.executor\": \"Run\",\r\n    \"Python.Opdracht 3.executor\": \"Run\",\r\n    \"Python.Opdracht1.executor\": \"Run\",\r\n    \"Python.Opdracht2.executor\": \"Run\",\r\n    \"Python.Opdracht2_convergentiecriteria.executor\": \"Run\",\r\n    \"Python.Opdracht3.executor\": \"Run\",\r\n    \"Python.Opdracht3_convergentiecriteria.executor\": \"Run\",\r\n    \"Python.Opdracht4.executor\": \"Run\",\r\n    \"Python.Opdracht4_convergentiecriteria.executor\": \"Run\",\r\n    \"Python.Probleemstelling1 - zonder recursie.executor\": \"Run\",\r\n    \"Python.bisectiemethode_oefening2.executor\": \"Run\",\r\n    \"Python.main.executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"com.codeium.enabled\": \"true\",\r\n    \"com.codeium.snoozedEndTime\": \"1737493400185\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"ignore.virus.scanning.warn.message\": \"true\",\r\n    \"settings.editor.selected.configurable\": \"settings.sync\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"Z:\\oefen\\Algo\\Github\\Bisectiemethodes\" />\r\n      <recent name=\"C:\\Users\\Daan.Hautekeete\\PycharmProjects\\Bisectiemethodes\\oefening1\" />\r\n      <recent name=\"C:\\Users\\Daan.Hautekeete\\PycharmProjects\\Bisectiemethodes\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunAnythingCache\">\r\n    <option name=\"myCommands\">\r\n      <command value=\"python\" />\r\n    </option>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"da2e8b91-c6ff-4f42-bdc1-323244b7791f\" name=\"Changes\" comment=\"\" />\r\n      <created>1726643212029</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1726643212029</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Toevoegen van opdracht\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1727248719935</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1727248719935</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Afwerken probleemstelling 1 (zonder recursie) - NR\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1727853599924</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1727853599924</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Afwerken van regel van Horner (algo)\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1729667762463</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1729667762463</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Toevoegen oplossing Gauss-Jordan (Wiskunde)\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731483343937</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731483343937</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Oefening 1 van recursie afwerken (Algoritmiek)\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731484110982</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731484110982</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Oefening  Newton_Raphson met recursie(volledig zelf) afwerken (Algoritmiek)\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1731485514389</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1731485514389</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Maken probleemstelling 1 bisectiemethode\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1733860886879</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1733860886879</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Toevoegen van voorbereiding toets rijen\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1737490572907</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1737490572907</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"Toevoegen voorbereiding opstellen van convergentiecriteria\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1740417198131</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1740417198131</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"10\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Toevoegen van opdracht\" />\r\n    <MESSAGE value=\"Afwerken probleemstelling 1 (zonder recursie) - NR\" />\r\n    <MESSAGE value=\"Afwerken van regel van Horner (algo)\" />\r\n    <MESSAGE value=\"Toevoegen oplossing Gauss-Jordan (Wiskunde)\" />\r\n    <MESSAGE value=\"Oefening 1 van recursie afwerken (Algoritmiek)\" />\r\n    <MESSAGE value=\"Oefening  Newton_Raphson met recursie(volledig zelf) afwerken (Algoritmiek)\" />\r\n    <MESSAGE value=\"Maken probleemstelling 1 bisectiemethode\" />\r\n    <MESSAGE value=\"Toevoegen van voorbereiding toets rijen\" />\r\n    <MESSAGE value=\"Toevoegen voorbereiding opstellen van convergentiecriteria\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Toevoegen voorbereiding opstellen van convergentiecriteria\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision a8c185ad02a460f7883ba1403d07e61ca3c8985c)
++++ b/.idea/workspace.xml	(date 1745572980695)
+@@ -4,12 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="da2e8b91-c6ff-4f42-bdc1-323244b7791f" name="Changes" comment="Toevoegen voorbereiding opstellen van convergentiecriteria">
+-      <change afterPath="$PROJECT_DIR$/Punt-iteratieve methode/Opdracht 3.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/Bisectiemethodes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Bisectiemethodes.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++    <list default="true" id="da2e8b91-c6ff-4f42-bdc1-323244b7791f" name="Changes" comment="Maken van opdracht 3 - punt iteratieve methode">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Punt-iteratieve methode/Opdracht 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Punt-iteratieve methode/Opdracht 2.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -52,40 +48,41 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Python.Alternerend.executor": "Run",
+-    "Python.Alternerende rij.executor": "Run",
+-    "Python.Bisectiemethode.executor": "Run",
+-    "Python.Bissectiemethode_oplossing.executor": "Run",
+-    "Python.Fibonacci.executor": "Run",
+-    "Python.Gauss-Jordan_Oplossing.executor": "Run",
+-    "Python.Newton-Raphson-Probleemstelling3.executor": "Run",
+-    "Python.Newton-Raphson-zonderRecursie_Oplossing.executor": "Run",
+-    "Python.Newton_Raphson_Recursie.executor": "Run",
+-    "Python.Newton_Raphson_Recursie_volledigZelf.executor": "Run",
+-    "Python.Oefening1_recursie.executor": "Run",
+-    "Python.Opdracht 1.executor": "Run",
+-    "Python.Opdracht 2.executor": "Run",
+-    "Python.Opdracht 3.executor": "Run",
+-    "Python.Opdracht1.executor": "Run",
+-    "Python.Opdracht2.executor": "Run",
+-    "Python.Opdracht2_convergentiecriteria.executor": "Run",
+-    "Python.Opdracht3.executor": "Run",
+-    "Python.Opdracht3_convergentiecriteria.executor": "Run",
+-    "Python.Opdracht4.executor": "Run",
+-    "Python.Opdracht4_convergentiecriteria.executor": "Run",
+-    "Python.Probleemstelling1 - zonder recursie.executor": "Run",
+-    "Python.bisectiemethode_oefening2.executor": "Run",
+-    "Python.main.executor": "Run",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "com.codeium.enabled": "true",
+-    "com.codeium.snoozedEndTime": "1737493400185",
+-    "git-widget-placeholder": "master",
+-    "ignore.virus.scanning.warn.message": "true",
+-    "settings.editor.selected.configurable": "settings.sync"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;Python.Alternerend.executor&quot;: &quot;Run&quot;,
++    &quot;Python.Alternerende rij.executor&quot;: &quot;Run&quot;,
++    &quot;Python.Bisectiemethode.executor&quot;: &quot;Run&quot;,
++    &quot;Python.Bissectiemethode_oplossing.executor&quot;: &quot;Run&quot;,
++    &quot;Python.Fibonacci.executor&quot;: &quot;Run&quot;,
++    &quot;Python.Gauss-Jordan-OplossingMeneer.executor&quot;: &quot;Run&quot;,
++    &quot;Python.Gauss-Jordan_Oplossing.executor&quot;: &quot;Run&quot;,
++    &quot;Python.Newton-Raphson-Probleemstelling3.executor&quot;: &quot;Run&quot;,
++    &quot;Python.Newton-Raphson-zonderRecursie_Oplossing.executor&quot;: &quot;Run&quot;,
++    &quot;Python.Newton_Raphson_Recursie.executor&quot;: &quot;Run&quot;,
++    &quot;Python.Newton_Raphson_Recursie_volledigZelf.executor&quot;: &quot;Run&quot;,
++    &quot;Python.Oefening1_recursie.executor&quot;: &quot;Run&quot;,
++    &quot;Python.Opdracht 1.executor&quot;: &quot;Run&quot;,
++    &quot;Python.Opdracht 2.executor&quot;: &quot;Run&quot;,
++    &quot;Python.Opdracht 3.executor&quot;: &quot;Run&quot;,
++    &quot;Python.Opdracht1.executor&quot;: &quot;Run&quot;,
++    &quot;Python.Opdracht2.executor&quot;: &quot;Run&quot;,
++    &quot;Python.Opdracht2_convergentiecriteria.executor&quot;: &quot;Run&quot;,
++    &quot;Python.Opdracht3.executor&quot;: &quot;Run&quot;,
++    &quot;Python.Opdracht3_convergentiecriteria.executor&quot;: &quot;Run&quot;,
++    &quot;Python.Opdracht4.executor&quot;: &quot;Run&quot;,
++    &quot;Python.Opdracht4_convergentiecriteria.executor&quot;: &quot;Run&quot;,
++    &quot;Python.Probleemstelling1 - zonder recursie.executor&quot;: &quot;Run&quot;,
++    &quot;Python.bisectiemethode_oefening2.executor&quot;: &quot;Run&quot;,
++    &quot;Python.main.executor&quot;: &quot;Run&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
++    &quot;com.codeium.snoozedEndTime&quot;: &quot;1737493400185&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
++    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="Z:\oefen\Algo\Github\Bisectiemethodes" />
+@@ -186,7 +183,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1740417198131</updated>
+     </task>
+-    <option name="localTasksCounter" value="10" />
++    <task id="LOCAL-00010" summary="Maken van opdracht 3 - punt iteratieve methode">
++      <option name="closed" value="true" />
++      <created>1745337707196</created>
++      <option name="number" value="00010" />
++      <option name="presentableId" value="LOCAL-00010" />
++      <option name="project" value="LOCAL" />
++      <updated>1745337707196</updated>
++    </task>
++    <option name="localTasksCounter" value="11" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -210,6 +215,7 @@
+     <MESSAGE value="Maken probleemstelling 1 bisectiemethode" />
+     <MESSAGE value="Toevoegen van voorbereiding toets rijen" />
+     <MESSAGE value="Toevoegen voorbereiding opstellen van convergentiecriteria" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Toevoegen voorbereiding opstellen van convergentiecriteria" />
++    <MESSAGE value="Maken van opdracht 3 - punt iteratieve methode" />
++    <option name="LAST_COMMIT_MESSAGE" value="Maken van opdracht 3 - punt iteratieve methode" />
+   </component>
+ </project>
+\ No newline at end of file
